@@ -1,6 +1,6 @@
 import React from 'react';
 import App, { Container } from 'next/app';
-import Link from 'next/link';
+import Header from "../components/Header/Header";
 
 export default class MyApp extends App {
     static async getInitialProps({ Component, router, ctx }) {
@@ -19,22 +19,8 @@ export default class MyApp extends App {
         return (
             <Container>
                 <div className='container'>
-                    <header>
-                        <img
-                            src='/static/images/logo.png'
-                            alt='Logo for James Moorhouse Consulting Limited. M character inside red box'
-                        />
-                        <ul>
-                            <li><Link href='/'><a>Home</a></Link></li>
-                            <li><Link href='/about'><a>About</a></Link></li>
-                            <li><Link href='/services'><a>Services</a></Link></li>
-                            <li><Link href='/contact'><a>Contact</a></Link></li>
-                        </ul>
-                    </header>
+                    <Header/>
                     <Component {...pageProps} />
-                    <footer>
-                        07540 306 772 // jamesmoorhouse@live.co.uk
-                    </footer>
                 </div>
             </Container>
         )

@@ -1,0 +1,49 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p {
+  line-height: 1.9;
+  font-size: 1rem;
+}
+
+body {
+  color: $black;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: $red;
+
+  a:hover {
+    color: $red;
+    text-decoration: none;
+  }
+}
+
+.title {
+  color: $white;
+  background-color: $red;
+  padding: 0.4rem 0.6rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  font-family: Segoe UI, 'Helvetica Neue', 'sans-serif';
+}
+
+.secondaryTitle {
+  color: $white;
+  background-color: $black;
+  padding: 0.25rem 0.35rem 0.15rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  font-family: Segoe UI, 'Helvetica Neue', 'sans-serif';
+}
+
+.responsiveImage {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}

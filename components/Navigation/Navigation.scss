@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.navigation {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+  margin-bottom: 1.8rem;
+  font-family: Segoe UI, 'Helvetica Neue', 'sans-serif';
+}
+
+.item {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+
+  a {
+    color: $white;
+    background-color: $black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+      background-color: $red;
+    }
+  }
+}
