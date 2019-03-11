@@ -44,7 +44,7 @@ const About = () => {
                     </p>
                     <p>
                         I'm currently working on my own piece of software to make trades on and collect data from the Betfair Exchange.
-                        This allows me to persue my passion for (profitable) betting that I picked up whilst working at SkyBet as well
+                        This allows me to pursue my passion for (profitable) betting that I picked up whilst working at SkyBet as well
                         as gain experience using new technology I otherwise wouldn't be during the day job.
                     </p>
                     <p>Sprinkle a bit of foreign language learning and reading on top of all that and that's just about all you need to know.</p>
