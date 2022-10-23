@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from "next/link";
-import styles from './Navigation.scss';
+import styles from './Navigation.module.scss';
 
 const Navigation = () => {
     return <ul className={styles.navigation}>

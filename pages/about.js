@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react';
-import genericStyles from '../styles/generic.scss';
 
 const About = () => {
     return (
@@ -7,7 +6,7 @@ const About = () => {
             <title>About James Moorhouse - Software Engineer</title>
             <div className='row'>
                 <div className='col-lg-8'>
-                    <h1 className={genericStyles.title}>The Software Engineer</h1>
+                    <h1 className='title'>The Software Engineer</h1>
                     <p>Wow, you made it as far as the "about me" page, I'm impressed ;) Well, here goes...</p>
                     <p>
                         Since around age 13, I've been toying with computers, predominantly web based tech. From here, I begun creating
@@ -29,13 +28,13 @@ const About = () => {
                     <img
                         src='/static/images/profile.jpg'
                         alt='Profile Picture of James, against a blue background'
-                        className={genericStyles.responsiveImage}
+                        className='responsiveImage'
                     />
                 </div>
             </div>
             <div className='row'>
                 <div className='col-lg-8'>
-                    <h1 className={genericStyles.title}>The Human Being</h1>
+                    <h1 className='title'>The Human Being</h1>
                     <p>Wait, shouldn't this have come first...?</p>
                     <p>Outside of work I have many interests including food, travelling and <b>coffee.</b> Doesn't everyone?</p>
                     <p>
@@ -59,26 +58,26 @@ const About = () => {
                     <img
                         src='/static/images/snowboard.jpg'
                         alt='James Snowboarding'
-                        className={genericStyles.responsiveImage}
+                        className='responsiveImage'
                     />
                 </div>
             </div>
 
-            <h1 className={genericStyles.title}>Strengths</h1>
+            <h1 className='title'>Strengths</h1>
             <p>From the <a href='https://www.gallupstrengthscenter.com/'>Clifton Strengths Finder</a></p>
-            <h2 className={genericStyles.secondaryTitle}>1. Restorative</h2>
+            <h2 className='secondaryTitle'>1. Restorative</h2>
             <p>People who are especially talented in the Restorative theme are adept at dealing with problems. They
                 are good at figuring out what is wrong and resolving it.</p>
-            <h2 className={genericStyles.secondaryTitle}>2. Analytical</h2>
+            <h2 className='secondaryTitle'>2. Analytical</h2>
             <p>People who are especially talented in the Analytical theme search for reasons and causes. They have
                 the ability to think about all the factors that might affect a situation.</p>
-            <h2 className={genericStyles.secondaryTitle}>3. Responsibility</h2>
+            <h2 className='secondaryTitle'>3. Responsibility</h2>
             <p>People who are especially talented in the Responsibility theme take psychological ownership of what
                 they say they will do. They are committed to stable values such as honesty and loyalty.</p>
-            <h2 className={genericStyles.secondaryTitle}>4. Focus</h2>
+            <h2 className='secondaryTitle'>4. Focus</h2>
             <p>People who are especially talented in the Focus theme can take a direction, follow through, and make
                 the corrections necessary to stay on track. They prioritize, then act.</p>
-            <h2 className={genericStyles.secondaryTitle}>5. Relator</h2>
+            <h2 className='secondaryTitle'>5. Relator</h2>
             <p>People who are especially talented in the Relator theme enjoy close relationships with others. They
                 find deep satisfaction in working hard with friends to achieve a goal.</p>
         </div>

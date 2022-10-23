@@ -1,6 +1,5 @@
-import Link from "next/link";
 import React from "react";
-import styles from './Header.scss';
+import styles from './Header.module.scss';
 import Navigation from "../Navigation/Navigation";
 
 const Header = () => {
